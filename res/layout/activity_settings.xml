@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/color_black">
+    <TextView
+        android:id="@+id/departTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/departmentsTag"
+        android:textColor="@color/color_white"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textSize="@dimen/optionsTitlesFont_size"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/radioSettingsDepartmentGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/settingsPadding">
+        <RadioButton
+            android:id="@+id/rbAirbrush"
+            android:onClick="onRadioButtonClicked"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:layout_weight="1"
+            android:text="@string/depAirbrush"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/optionsSelectionsFont_size" />
+        <RadioButton
+            android:id="@+id/rbBodyArt"
+            android:onClick="onRadioButtonClicked"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:text="@string/depBodyArt"
+            android:textSize="@dimen/optionsSelectionsFont_size" />
+        <RadioButton
+            android:id="@+id/rbCaricatures"
+            android:onClick="onRadioButtonClicked"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:text="@string/depCaric"
+            android:textSize="@dimen/optionsSelectionsFont_size" />
+        <RadioButton
+            android:id="@+id/rbPortraits"
+            android:onClick="onRadioButtonClicked"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_white"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:text="@string/depPort"
+            android:textSize="@dimen/optionsSelectionsFont_size" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/position"
+        android:textColor="@color/color_white"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textSize="@dimen/optionsTitlesFont_size"
+        android:textStyle="bold" />
+<RadioGroup
+    android:id="@+id/radioSettingsGroup"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/settingsPadding">
+    <RadioButton
+        android:id="@+id/rbFirstYear"
+        android:onClick="onRadioButtonClicked"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_white"
+        android:textColor="@color/color_white"
+        android:text="@string/firstYear"
+        android:textSize="@dimen/optionsSelectionsFont_size" />
+    <RadioButton
+        android:id="@+id/rbSecondYear"
+        android:onClick="onRadioButtonClicked"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_white"
+        android:textColor="@color/color_white"
+        android:text="@string/secondYear"
+        android:textSize="@dimen/optionsSelectionsFont_size" />
+    <RadioButton
+        android:id="@+id/rbLead"
+        android:onClick="onRadioButtonClicked"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_white"
+        android:textColor="@color/color_white"
+        android:text="@string/leadYear"
+        android:textSize="@dimen/optionsSelectionsFont_size" />
+    <RadioButton
+        android:id="@+id/rbSupervisor"
+        android:onClick="onRadioButtonClicked"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_white"
+        android:text="@string/supervisor"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/optionsSelectionsFont_size" />
+    <RadioButton
+        android:id="@+id/rbManager"
+        android:onClick="onRadioButtonClicked"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/color_white"
+        android:text="@string/manager"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/optionsSelectionsFont_size" />
+</RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="@string/pickColors"
+        android:textColor="@color/color_white"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/menus_background"
+    android:paddingBottom="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/colors_height">
+        <TextView
+            android:id="@+id/tvColor1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_grey"/>
+             <View
+            android:layout_width="@dimen/color_gap"
+            android:layout_height="match_parent"
+            android:background="@color/menus_background"
+            android:paddingBottom="100dp"/>
+        <TextView
+            android:id="@+id/tvColor2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_white"/>
+             <View
+            android:layout_width="@dimen/color_gap"
+            android:layout_height="match_parent"
+            android:background="@color/menus_background"
+            android:paddingBottom="100dp"/>
+        <TextView
+            android:id="@+id/tvColor3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_blue"/>
+             <View
+            android:layout_width="@dimen/color_gap"
+            android:layout_height="match_parent"
+            android:background="@color/menus_background"
+            android:paddingBottom="100dp"/>
+        <TextView
+            android:id="@+id/tvColor4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_teal"/>
+             <View
+            android:layout_width="@dimen/color_gap"
+            android:layout_height="match_parent"
+            android:background="@color/menus_background"
+            android:paddingBottom="100dp"/>
+
+        <TextView
+            android:id="@+id/tvColor5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_raspberry"/>
+        <View
+            android:layout_width="@dimen/color_gap"
+            android:layout_height="match_parent"
+            android:background="@color/menus_background"
+            android:paddingBottom="100dp"/>
+        <TextView
+            android:id="@+id/tvColor6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/colorSelectedXFont_size"
+            android:background="@color/color_brown"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/menus_background"
+        android:paddingBottom="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resetWarning"
+        android:textColor="@color/color_grey"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+
+    <Button
+        android:id="@+id/okayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/okButton"
+        android:textSize="@dimen/optionsTitlesFont_size"
+        android:textColor="@color/color_white"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/settingsPadding"/>
+</LinearLayout>

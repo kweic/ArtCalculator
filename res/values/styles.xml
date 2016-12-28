@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>-->
+
+    <!-- OTHER APPTHEMES REFERENCE THIS ONE "DarkActionBar" -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@android:color/transparent</item>
+    <item name="windowActionBarOverlay">true</item>
+
+</style>
+
+    <!-- don't know where this is used.. but disabling it breaks app -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+    <!-- THIS IS THE MAIN APP TASKBAR -->
+    <style name="AppTheme.AppBarOverlay">
+        <item name="colorPrimary">@color/color_black</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:textColorPrimary">@color/color_white</item>
+        <item name="android:textColorSecondary">@color/color_white</item>
+    </style>
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+    <!-- THIS IS WHAT POPS UP WHEN CLICKING OVERFLOW -->
+    <style name="AppTheme.PopupOverlay">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppThemePopup" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppThemePopup.CustomTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>

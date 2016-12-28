@@ -1,0 +1,29 @@
+<resources>
+    <!--<dimen name="fab_margin">16dp</dimen>
+    <dimen name="category_margin">130dp</dimen>
+    <dimen name="amount_margin">60dp</dimen>
+    <dimen name="flatRate_margin">80dp</dimen>-->
+    <dimen name="titleFont_size">20sp</dimen>
+    <dimen name="totalFont_size">32sp</dimen>
+    <dimen name="resetFont_size">24sp</dimen>
+    <dimen name="totalBottom_size">45dp</dimen>
+    <dimen name="resetBottom_size">45dp</dimen>
+    <dimen name="topText_height">80dp</dimen>
+
+
+    <!-- SETTINGS DIMENSIONS -->
+    <dimen name="optionsSelectionsFont_size">16dp</dimen>
+    <dimen name="optionsTitlesFont_size">20dp</dimen>
+    <dimen name="colors_height">80dp</dimen>
+    <dimen name="color_gap">3dp</dimen>
+    <dimen name="colorSelectedXFont_size">36dp</dimen>
+    <dimen name="settingsPadding">15dp</dimen>
+
+
+    <!-- CATEGORIES SETTINGS -->
+    <integer name="category_weight">3</integer>
+    <integer name="count_weight">1</integer>
+    <integer name="flatRate_weight">1</integer>
+    <integer name="totals_weight">2</integer>
+
+</resources>

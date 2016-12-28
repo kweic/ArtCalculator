@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="popUpTransparent">#00000000</color>
+    <color name="menus_background">#212121</color>
+
+
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_grey">#bdbdbd</color>
+    <color name="color_teal">#1de9b6</color>
+    <color name="color_blue">#8fb9ff</color>
+    <color name="color_raspberry">#f097ff</color>
+    <color name="color_brown">#ffe0b1</color>
+    <color name="color_black">#000000</color>
+</resources>

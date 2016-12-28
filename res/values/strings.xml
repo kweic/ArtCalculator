@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ArtCalculator</string>
+    <string name="toolbarTitle">Flat Rate</string>
+    <string name="action_settings">Settings</string>
+    <string name="position">Postion</string>
+    <string name="departmentsTag">Department</string>
+
+    <!--Position-->
+    <string name="firstYear">1st Year</string>
+    <string name="secondYear">2+ Years</string>
+    <string name="leadYear">Lead</string>
+    <string name="supervisor">Supervisor</string>
+    <string name="manager">Manager</string>
+    <!--/Position-->
+
+
+    <!--Departments-->
+    <string name="depAirbrush">Airbrush</string>
+    <string name="depBodyArt">Body Art</string>
+    <string name="depCaric">Caricatures</string>
+    <string name="depPort">Portraits</string>
+    <!--/Departments-->
+
+
+    <string name="resetWarning">changing dept. or position will reset tally</string>
+    <string name="pickColors">Background colors</string>
+    <string name="colorSelect">X</string>
+
+    <string name="okButton">OK</string>
+    <string name="category">Category</string>
+    <string name="resetTag">Reset</string>
+
+
+    <string name="item_col">" Item"</string>
+    <string name="count_col">#</string>
+    <string name="flatrate_col">rate</string>
+    <string name="totals_col">" Totals"</string>
+</resources>

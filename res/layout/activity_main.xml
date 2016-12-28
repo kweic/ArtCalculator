@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.w.kevin.artcalculator.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- android:background="?attr/colorPrimary"-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/menus_background"
+        android:layout_marginBottom="@dimen/totalBottom_size"
+        android:layout_marginTop="@dimen/topText_height">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLinearLayout"
+    android:orientation="horizontal"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="@integer/category_weight"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/itemColumn"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="@integer/count_weight"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/amountColumn"/>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="@integer/flatRate_weight"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/flatRateColumn"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="@integer/totals_weight"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/totalsColumn"/>
+
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topText_height"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="@integer/category_weight"
+            android:text="@string/item_col"
+            android:textSize="@dimen/titleFont_size"
+            android:gravity="bottom"
+            android:layout_height="@dimen/topText_height"
+            android:textColor="#ffffff"
+            android:background="@color/menus_background"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="@integer/count_weight"
+            android:text="@string/count_col"
+            android:textSize="@dimen/titleFont_size"
+            android:gravity="bottom"
+            android:layout_height="@dimen/topText_height"
+            android:textColor="#ffffff"
+            android:background="@color/menus_background"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="@integer/flatRate_weight"
+            android:text="@string/flatrate_col"
+            android:textSize="@dimen/titleFont_size"
+            android:gravity="bottom"
+            android:layout_height="@dimen/topText_height"
+            android:textColor="#ffffff"
+            android:background="@color/menus_background"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="@integer/totals_weight"
+            android:text="@string/totals_col"
+            android:textSize="@dimen/titleFont_size"
+            android:gravity="bottom"
+            android:layout_height="@dimen/topText_height"
+            android:textColor="#ffffff"
+            android:background="@color/menus_background"/>
+    </LinearLayout>
+
+
+    <!-- bottom totals -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/totalBottom_size"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+    <TextView
+        android:id="@+id/resetTag"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/totalBottom_size"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:text="Reset"
+        android:textSize="@dimen/resetFont_size"
+        android:textColor="#ffffff"
+        android:background="@color/menus_background"
+        android:paddingLeft="8dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/bottom_total"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/totalBottom_size"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:text="Total: $0.00"
+        android:textSize="@dimen/totalFont_size"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:background="@color/menus_background"
+        android:paddingLeft="8dp">
+    </TextView>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array
+        name="bodyartTitles">
+        <item>$3.99 Balm</item>
+        <item>$4.99 Jewelry</item>
+        <item>HENNA - Mini/Zod/Inspir</item>
+        <item>H - Basic or 2 letters</item>
+        <item>H - Embell\'d Hand Basic</item>
+        <item>H - Custom Start</item>
+        <item>H - Terrific / Hand Embell\'d</item>
+        <item>H - Amazing / Hand Custom</item>
+        <item>H - Remarkable</item>
+        <item>H - $2 Add-on</item>
+        <item>H - $5 Add-on</item>
+        <item>Facepaint - Glitter / Gem</item>
+        <item>FP - Sale</item>
+        <item>FP - Basic</item>
+        <item>FP - Deluxe</item>
+        <item>FP - Premium</item>
+        <item>Hairwrap - Basic inch</item>
+        <item>HW - Criss Cross inch</item>
+        <item>HW - Bead Basic</item>
+        <item>HW - Bead Deluxe</item>
+        <item>H.D. Tattoo - Basic</item>
+        <item>H.D. - Deluxe</item>
+        <item>H.D. - Premium</item>
+        <item>H.D. - Double Basic</item>
+    </string-array>
+
+    <string-array name="bodyartValues_firstYear">
+        <item>.25</item>
+        <item>.50</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="bodyartValues_secondYear">
+        <item>25</item>
+    </string-array>
+
+    <string-array name="bodyartValues_lead">
+        <item>25</item>
+    </string-array>
+
+    <string-array name="bodyartValues_supervisor">
+        <item>25</item>
+    </string-array>
+
+    <string-array name="bodyartValues_manager">
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+        <item>25</item>
+    </string-array>
+
+</resources>

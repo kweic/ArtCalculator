@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="airbrushTitles">
+        <item>basic</item>
+        <item>medium</item>
+        <item>hard</item>
+        <item>advanced</item>
+        <item>basic super</item>
+        <item>medium2</item>
+        <item>hard test</item>
+        <item>advanced</item>
+    </string-array>
+    <string-array name="airbrushValues_firstYear">
+        <item>.25</item>
+        <item>.50</item>
+        <item>.75</item>
+        <item>1.00</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="airbrushValues_secondYear">
+        <item>.25</item>
+    </string-array>
+
+    <string-array name="airbrushValues_lead">
+        <item>.25</item>
+    </string-array>
+
+    <string-array name="airbrushValues_supervisor">
+        <item>.25</item>
+    </string-array>
+
+    <string-array name="airbrushValues_manager">
+        <item>.25</item>
+    </string-array>
+
+</resources>
